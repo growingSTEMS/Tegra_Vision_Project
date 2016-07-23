@@ -1,0 +1,15 @@
+*.jpg
+*.png
+*.bmp
+*.jpeg
+CMakeFiles/
+CMakeCache.txt
+*.bin
+*.out
+*.log
+*.cmake
+*.o
+*.make
+*.internal
+Makefile*
+*.zip

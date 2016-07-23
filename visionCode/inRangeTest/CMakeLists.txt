@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8)
+project (InRangeTest)
+find_package (OpenCV REQUIRED)
+add_executable (InRangeTest inRangeTest.cpp)
+target_link_libraries (InRangeTest ${OpenCV_LIBS})

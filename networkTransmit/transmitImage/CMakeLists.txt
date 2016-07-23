@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(TransmitImage)
+find_package(OpenCV REQUIRED)
+add_executable(TransmitImage server.cpp)
+target_link_libraries(TransmitImage ${OpenCV_LIBS})

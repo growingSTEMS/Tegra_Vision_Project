@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(RecieveFeed)
+find_package(OpenCV REQUIRED)
+add_executable(RecieveFeed client.cpp)
+target_link_libraries(RecieveFeed ${OpenCV_LIBS})

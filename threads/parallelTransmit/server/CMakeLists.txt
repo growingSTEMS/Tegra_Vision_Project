@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+project(TransmitImage)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+find_package(OpenCV REQUIRED)
+add_executable(TransmitImage server.cpp)
+target_link_libraries(TransmitImage ${OpenCV_LIBS})
